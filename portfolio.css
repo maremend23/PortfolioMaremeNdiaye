@@ -1,0 +1,153 @@
+body{
+	
+	background: hsl(220, 41%, 90%);
+}
+.hero {
+  
+	background-image: url(minf1.png);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+
+nav{
+	display: flex;
+	width: 100%;
+	height: 20%;
+	margin: auto;
+	padding: 20px 0;
+    align-items:center;
+	position: relative;
+	background: hsl(220, 41%, 90%);
+	position: relative;
+	justify-content: space-betwen;
+
+
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	font-weight: bold;
+
+}
+nav ul li a:hover{
+	color: red;
+
+}
+
+#profil{
+	padding-bottom: 150px;
+}
+
+
+
+
+.detel{
+	 margin-left: 8%;
+	 margin-top: 13%;
+
+}
+.detel h1{
+	font-size: 50px;
+
+	margin-bottom: 20px;
+}
+span{
+	color:  #ff6d58
+
+}
+.detel p{
+	color: #555;
+	line-height: 22px ;
+}
+ a{
+	background: #212121;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 20px ;
+}
+.images{
+	width: 50%;
+	height: 70%;
+	position: absolute;
+	bottom: 0;
+	right: 80px;
+}
+.images img{
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: -5px;
+	transform: translateX(-50%);
+	transition: bottom 1s, left 1s;
+}
+.grid-item h3 {
+  font-size: 1.2rem;
+  margin: 20%;
+  } 
+   
+	.grid img {
+		width: 200px;
+		height: 200px;
+		position: relative;
+		overflow-clip-margin: content-box;
+		overflow: clip;
+	}
+		
+		
+
+
+
+  
+
+.grille {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    grid-gap: 50px;
+	background: hsl(220, 41%, 90%);
+
+}
+.grid-item {
+    width: 250px;
+    height: 250px;
+    background:  #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width:500px;
+    padding: 30px;
+    border: 1px solid rgb(59, 48, 48);
+    background: #eff4fd;
+    position: relative;
+    bottom: -50px;
+	justify-content: space-between;
+	left: 25px;
+    
+    left: 25%;
+}
+footer{
+	text-align: center;
+	background: #ff6d58;
+}
